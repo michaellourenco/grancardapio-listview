@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+   
+ <!--<ImageView
+  	  android:background="#2ec910"
+      android:layout_width="fill_parent"
+      android:layout_height="60dp">
+ </ImageView>-->
+      
+     <TextView
+         android:text="Próximos Eventos.:"
+         android:paddingLeft="10dp"
+         android:paddingTop="6dp"
+         android:background="#000"
+         android:textColor="#FFF"
+         android:textSize="35dp"
+         android:typeface="sans"
+         android:layout_width="fill_parent"
+         android:layout_height="60dp">
+     </TextView>
+     
+
+  
+  <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector" />
+
+</LinearLayout>
